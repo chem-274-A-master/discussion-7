@@ -99,7 +99,7 @@ We can do this a few different ways using the standard library. Write the code f
 of the above array and vector the following to ways.
 
 1. Use `std::transform` to perform the product, and then `std::accumulate` to accumulate the sum
-2. Use std::inner_product
+2. Use `std::inner_product`
 
 For #1, You can use `std::multiplies<int>()` as the argument for the binary operation.
 
